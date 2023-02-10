@@ -6,7 +6,10 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Hatdog"
-             Slider VerticalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"/>
+            
+            <Slider VerticalOptions="CenterAndExpand"
                     MinimumTrackColor="Green"
                     MaximumTrackColor="Red"
                     ThumbColor="Black" 
