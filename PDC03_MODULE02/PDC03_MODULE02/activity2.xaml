@@ -20,6 +20,7 @@
                    HorizontalOptions="CenterAndExpand"
                    VerticalOptions="CenterAndExpand"/>
 
+            <Button Text="Back to Home Page" Clicked="OPENMainPage"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

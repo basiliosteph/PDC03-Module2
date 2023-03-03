@@ -21,5 +21,10 @@ namespace PDC03_MODULE02
         {
             valueLabel.Text= args.NewValue.ToString("F3");
         }
+
+        private async void OPENMainPage(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
     }
 }

@@ -23,5 +23,19 @@ namespace PDC03_MODULE02
         {
             await Navigation.PushAsync(new activity2());
         }
+
+        private async void OPENActivity3(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new activity3());
+        }
+
+        private async void OPENActivity4(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new activity4());
+        }
+        private async void OPENActivity5(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new activity5());
+        }
     }
 }
